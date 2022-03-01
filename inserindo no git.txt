@@ -1,3 +1,5 @@
+INSTRUÇÕES PARA SUBIR UM ARQUIVO NO GIT/GITHUB
+
 git init
 (inicializando a pasta local)
 
