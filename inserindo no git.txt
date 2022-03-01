@@ -1,0 +1,45 @@
+git init
+(inicializando a pasta local)
+
+git add readme.md
+
+(adicionando o arquivo "readme.md" na "fila para comitar")
+
+git commit -m "nova versão"
+
+(fazendo o commit de uma nova versão localmente)
+
+
+git remote add origin github.com/galvaoribeiro/Projeto_01.git ---> utilizada uma única vez
+
+
+(adicionado um remote ...)
+(origin é nome (ou apelido) que damos para o repositório)
+(main é a branch principal)
+(eu digo "git faça a conexão do nosso repositório local para repositório do github")
+(Porjeto_01 é o nome do repositório)
+(github.com/galvaoribeiro é nome do endereço na web do github)
+
+
+git push -u origin main ----> utilizada uma única vez para autorizar credenciais
+(aqui eu empurro pela primeira vez o meu arquivo)
+(nos demais casos, eu uso o comando abaixo)
+
+****** UTILIZADO NAS ALTERAÇÕES  *******
+
+	git commit -m "name of change"
+
+	git push origin main
+
+	(empurrando a nova versão para o repositório no github)
+
+
+******** quando der problema usar o seguinte comando  **********
+
+	git push -f origin main
+
+	(quando ocorre o erro *"The tip of your current branch is behind its remote counterpart"*)
+	(isso signifca que existem mudanças no branch remoto que não existem localmente)
+	(And Git tells you to import new changes from REMOTE and merge it with your code and then push it to remote)
+	(you can use this command to force changes to the server with the local repository ().) - ou seja fazemos o contrário do indicado pelo git.
+	(remote repo code will be replaced with your local repo code.)
