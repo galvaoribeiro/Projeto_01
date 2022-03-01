@@ -45,3 +45,26 @@ git push -u origin main ----> utilizada uma única vez para autorizar credenciai
 	(And Git tells you to import new changes from REMOTE and merge it with your code and then push it to remote)
 	(you can use this command to force changes to the server with the local repository ().) - ou seja fazemos o contrário do indicado pelo git.
 	(remote repo code will be replaced with your local repo code.)
+
+
+
+git checkout -b "novo-botao" 
+(saio da main e crio um novo branch "novo-botao". e entro neste novo branch automaticamente)
+
+git checkout main
+(saio da branch onde estou e entro na branch main)
+
+git merge novo-botao
+(faz o merge dos dois branches)
+
+git clone https://github.com/rafaballerini/GitTutorial.git
+(fazendo o clone de um repositório qualquer)
+
+cd GitTutorial
+(utilizando o cd eu avanço entre os diretórios)
+(cd .. --> muda para o diretorio pai)
+(cd - --> volta para o diretório que estávamos anteriormente)
+
+git pull origin main
+*git pull <remote> <branch>
+(puxa as alterações feitas no diretórios web - meu ou de outra pessoa)
