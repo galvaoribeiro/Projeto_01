@@ -22,6 +22,9 @@ git remote add origin github.com/galvaoribeiro/Projeto_01.git ---> utilizada uma
 (Porjeto_01 é o nome do repositório)
 (github.com/galvaoribeiro é nome do endereço na web do github)
 
+ALTERANDO O NOME DA BRANCH
+git branch -M "main"
+
 
 git push -u origin main ----> utilizada uma única vez para autorizar credenciais
 (aqui eu empurro pela primeira vez o meu arquivo)
