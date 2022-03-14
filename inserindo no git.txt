@@ -74,3 +74,23 @@ git pull origin main
 
 git push <remote> --delete <branch>
 deleta uma branch
+
+# DELETANDO UM ARQUIVO DO REPOSITÓRIO
+git rm --cached file.txt
+removendo um arquivo de um diretório na fila, mas não remotamente
+o comando --cached não é obrigatório. ver em https://git-scm.com/docs/git-rm
+
+	O comando git rm serve para remover arquivos que já foram adicionados ao git directory (arquivos que já foram comitados).
+	Se você usar apenas o comando git rm, sem remover o arquivo antes, esse arquivo será adicionado à staging area com o status deleted, e também será removido fisicamente 	(do working directory).
+	Ao fazer o commit, o arquivo físico será deletado, e será adicionado no histórico do git essa informação.
+	Usando o mesmo comando, mas com o parâmetro --cached, a informação vai para a staging area, apenas para dizer que esse arquivo deve ser removido do git directory, mas o 	 arquivo físico (working directory) vai continuar lá após o commit :)
+
+git commit -a -m "exclusion"
+faz o commit da remoção.
+
+git push origin main
+sobe remotamente a remoção
+
+# DELETANDO UM ARQUIVO FISICAMENTE
+git clean -f
+remove o arquivo localmente das pasta do windows
