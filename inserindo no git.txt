@@ -71,3 +71,6 @@ cd GitTutorial
 git pull origin main
 *git pull <remote> <branch>
 (puxa as alterações feitas no diretórios web - meu ou de outra pessoa)
+
+git push <remote> --delete <branch>
+deleta uma branch
