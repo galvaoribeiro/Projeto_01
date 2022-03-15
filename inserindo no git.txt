@@ -103,3 +103,5 @@ Set your email address: git config --global user.email "MY_NAME@example.com"
 
 git remote remove origin
 #REMOVE UM REMOTE REMOTAMENTE
+
+git rebase --skip #pula um rebase quando há conflito de merge
