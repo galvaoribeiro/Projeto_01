@@ -94,3 +94,7 @@ sobe remotamente a remoção
 # DELETANDO UM ARQUIVO FISICAMENTE
 git clean -f
 remove o arquivo localmente das pasta do windows
+
+
+Set your username: git config --global user.name "FIRST_NAME LAST_NAME"
+Set your email address: git config --global user.email "MY_NAME@example.com"
