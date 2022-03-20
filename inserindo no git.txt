@@ -105,3 +105,9 @@ git remote remove origin
 #REMOVE UM REMOTE REMOTAMENTE
 
 git rebase --skip #pula um rebase quando há conflito de merge
+
+
+
+
+git pull --rebase origin main
+faz o rebase
